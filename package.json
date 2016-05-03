@@ -1,20 +1,21 @@
 {
-  "name": "webpack",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^6.3.6",
-    "css-loader": "^0.23.1",
-    "node-sass": "^3.4.2",
-    "postcss-loader": "^0.8.2",
-    "sass-loader": "^3.2.0",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.0"
-  }
+    "name": "webpack",
+    "version": "1.0.0",
+    "description": "",
+    "author": "Dell Donatoni",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^6.3.6",
+        "css-loader": "^0.23.1",
+        "node-sass": "^3.4.2",
+        "postcss-loader": "^0.8.2",
+        "sass-loader": "^3.2.0",
+        "style-loader": "^0.13.1",
+        "webpack": "^1.13.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "start": "webpack-dev-server"
+    }
 }

@@ -3,7 +3,8 @@ var autoprefixer = require('autoprefixer');
 module.exports = {
 	entry: "./app.js",
 	watch: true,
-
+	clearBeforeBuild: true,
+	
 	output: {
 		filename: "bundle.js"
 	},
